@@ -2,15 +2,6 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 local Plr = game:GetService("Players").LocalPlayer
 local Plrs = game:GetService("Players")
 
-
-
-
-
-
-
-
-
-
 local Window = Rayfield:CreateWindow({
 	Name = "NiggerHub",
 	LoadingTitle = "Nigger.xyz",
@@ -21,7 +12,6 @@ local Window = Rayfield:CreateWindow({
 		FileName = "BigblackTeam"
 	},
 })
-
 
 local MainTab = Window:CreateTab("Main", 4483362458)-- Title, Image
 
@@ -143,7 +133,6 @@ local InstaKillToggle = MainTab:CreateToggle({
 	end,
 })
 
-
 local FlySection = MainTab:CreateSection("Fly")
 
 local FlyToggle = MainTab:CreateToggle({
@@ -261,7 +250,6 @@ local PlayerTp = TeleportTab:CreateInput({
 })
 
 
-
 local VisualTab = Window:CreateTab("Visuals", 4483362458)
 local EspSection = VisualTab:CreateSection("Esp")
 
@@ -303,7 +291,6 @@ local Esp = VisualTab:CreateToggle({
 local OtherTab = Window:CreateTab("Other", 4483362458)
 local NukerSection = OtherTab:CreateSection("Nuker")
 
-
 local NukerToggle = OtherTab:CreateToggle({
 	Name = "Nuker",
 	CurrentValue = false,
@@ -332,8 +319,6 @@ local NukerToggle = OtherTab:CreateToggle({
 		end
 	end,
 })
-
-
 
 local StaffSection = OtherTab:CreateSection("Staff Detector")
 
@@ -475,4 +460,3 @@ local SaffToggle = OtherTab:CreateToggle({
 
 
 Rayfield:LoadConfiguration()
-
