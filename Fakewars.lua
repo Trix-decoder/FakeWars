@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
 	},
 })
 
-local MainTab = Window:CreateTab("Main", 4483362458)-- Title, Image
+local MainTab = Window:CreateTab("Main", 11766772035)-- Title, Image
 
 local MainSection = MainTab:CreateSection("Insta Kill")
 
@@ -250,7 +250,7 @@ local PlayerTp = TeleportTab:CreateInput({
 })
 
 
-local VisualTab = Window:CreateTab("Visuals", 4483362458)
+local VisualTab = Window:CreateTab("Visuals", 11766772035)
 local EspSection = VisualTab:CreateSection("Esp")
 
 
